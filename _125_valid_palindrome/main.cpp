@@ -1,20 +1,16 @@
 class Solution {
 public:
-    bool isAlphanumeric(char c) {
-        return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');
-    }
-
     bool isPalindrome(string s) {
         // THIRD ATTEMPT (with NeetCode video)
         int left = 0;
         int right = s.size() - 1;
 
         while (left < right) {
-            while (left < right && !isAlphanumeric(s[left])) {
+            while (left < right && !isalnum(s[left])) {
                 left += 1;
             }
 
-            while (right > left && !isAlphanumeric(s[right])) {
+            while (right > left && !isalnum(s[right])) {
                 right -= 1;
             }
 
