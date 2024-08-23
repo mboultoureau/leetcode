@@ -1,3 +1,15 @@
-# My LeetCode resolutions
+# LeetCode Solutions
 
-I'm currently following the [NeetCode 150 program](https://neetcode.io/practice), so feel free to have a look at my [LeetCode profile](https://leetcode.com/mboultoureau/).
+This repository contains my solutions to LeetCode problems, organized by problem names. Each problem has its own folder, containing solutions in various programming languages.
+
+You can view my LeetCode profile: [mboultoureau](https://leetcode.com/u/mboultoureau/).
+
+## Languages Used
+
+Solutions are written in the following languages:
+
+- Python
+- C++
+- JavaScript
+- Rust
+- SQL
